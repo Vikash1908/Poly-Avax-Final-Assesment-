@@ -1,7 +1,5 @@
 pragma circom 2.0.0;
 
-/*This circuit template checks that c is the multiplication of a and b.*/  
-
 template CustomCircuit () {  
     // signal inputs
     signal input A;
@@ -29,7 +27,6 @@ template CustomCircuit () {
 
     orGate.a <== X;
     orGate.b <== Y;
-
     Q <== orGate.out;
 }
 
