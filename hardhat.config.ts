@@ -24,8 +24,8 @@ const config: HardhatUserConfig = {
     ]
   },
   networks: {
-    amoy: {
-      url: `https://rpc-amoy.polygon.technology`,
+    sepolia: {
+      url: `https://sepolia.infura.io/v3/9dad74d370b340f79da143ef9d15168c`,
       accounts: [process.env.PRIVATE_KEY]
     }
   },
